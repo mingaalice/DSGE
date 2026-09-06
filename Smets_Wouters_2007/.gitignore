@@ -1,0 +1,46 @@
+# MATLAB temporary files
+
+*.asv
+*.autosave
+*.m~
+*.bak
+*~
+
+# MATLAB / Dynare generated files or folders
+
+*.log
+*.jnl
+*.tmp
+*_dynamic.m
+*_static.m
+*_set_auxiliary_variables.m
+*_steadystate2.m
+*_results.mat
+*_results*
+usmodel/
+usmodel_irf/
+usmodel_recursive_*
++usmodel_recursive_*
+
+# Generated figures
+
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Generated forecast results
+
+recursive_forecast_dsge.mat
+recursive_forecast_dsge.csv
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+
+.vscode/
+.matlab/
